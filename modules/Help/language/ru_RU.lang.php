@@ -38,17 +38,31 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
+/*********************************************************************************
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+ * Description:  Defines the English language pack for the base application.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): ______________________________________..
+ ********************************************************************************/
 
+$mod_strings = array (
+  'LBL_MODULE_NAME' => 'Контрагенты',
+  'LBL_MODULE_TITLE' => 'Контрагенты - ГЛАВНАЯ',
+  'LBL_SEARCH_FORM_TITLE' => 'Поиск контрагентов',
+  'LBL_LIST_FORM_TITLE' => 'Список контрагентов',
+  'LBL_NEW_FORM_TITLE' => 'Создать контрагента',
+  'LNK_NEW_CONTACT' => 'Создать контакт',
+  'LNK_NEW_ACCOUNT' => 'Создать контрагента',
+  'LNK_NEW_OPPORTUNITY' => 'Создать сделку',
+  'LNK_NEW_CASE' => 'Создать обращение',
+  'LNK_NEW_NOTE' => 'Создать заметку или вложение',
+  'LNK_NEW_CALL' => 'Назначить звонок',
+  'LNK_NEW_EMAIL' => 'Отправить E-mail в архив',
+  'LNK_NEW_MEETING' => 'Назначить встречу',
+  'LNK_NEW_TASK' => 'Создать задачу',
+  'ERR_DELETE_RECORD' => 'Перед удалением контрагента должен быть определён номер записи.',
 );
+
+
 ?>

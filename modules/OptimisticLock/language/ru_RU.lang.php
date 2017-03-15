@@ -38,17 +38,23 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
+/*********************************************************************************
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+ * Description:  Defines the English language pack for the base application.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): ______________________________________..
+ ********************************************************************************/
 
+$mod_strings = array (
+   'LBL_YOURS' => 'Ваш',
+   'LBL_IN_DATABASE' => 'В базе данных',
+   'LBL_CONFLICT_EXISTS' => 'A Conflict Exists For - ',
+   'LBL_ACCEPT_DATABASE' => 'Accept Database',
+   'LBL_ACCEPT_YOURS' => 'Accept Yours',
+   'LBL_RECORDS_MATCH' => 'Records Match',
+   'LBL_NO_LOCKED_OBJECTS' => 'No Locked Objects',
+   
 );
+
 ?>

@@ -39,16 +39,10 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
 
-);
+
+
+$dashletStrings['OutcomeByMonthDashlet'] = array('LBL_TITLE'       => 'Стадии продаж по месяцам',
+                                                 'LBL_DESCRIPTION' => 'Диаграмма стадий продаж по месяцам',
+                                                 'LBL_REFRESH'     => 'Обновить диаграмму');
 ?>

@@ -1,9 +1,7 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
-
  * SuiteCRM is an extension to SugarCRM Community Edition developed by Salesagility Ltd.
  * Copyright (C) 2011 - 2014 Salesagility Ltd.
  *
@@ -37,18 +35,18 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * reasonably feasible for  technical reasons, the Appropriate Legal Notices must
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
-
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+$dashletStrings['SpotsDashlet'] = array(
+    'LBL_TITLE' => 'Сводки',
+    'LBL_DESCRIPTION' => 'Сводный отчёт',
+    'LBL_SAVING' => 'Сохранение сводок ...',
+    'LBL_SAVED' => 'Сохранено',
+    'LBL_CONFIGURE_TITLE' => 'Заголовок',
+    'LBL_SPOTS_TO_LOAD' => 'Сводка',
+    'LBL_NO_SPOTS_SELECTED' => 'Не выбрано ни одной сводки',
+    'LBL_SPOTS_POINTED_DELETED' => 'Сводка была удалена',
+    'LBL_SHOW_UI' => 'Настраиваемая сводка',
+    'LBL_NAME' => 'Название',
 );
-?>

@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -38,17 +37,44 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая):',
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Дата создания:',
+  'LBL_DATE_MODIFIED' => 'Дата изменения',
+  'LBL_MODIFIED' => 'Изменено',
+  'LBL_MODIFIED_ID' => 'Изменено(ID)',
+  'LBL_MODIFIED_NAME' => 'Изменено',
+  'LBL_CREATED' => 'Создано',
+  'LBL_CREATED_ID' => 'Создано(ID)',
+  'LBL_DESCRIPTION' => 'Фон',
+  'LBL_ADDITIONAL_INFO' => 'Резолюция',
+  'LBL_DELETED' => 'Удалено',
+  'LBL_NAME' => 'Статья',
+  'LBL_CREATED_USER' => 'Создано',
+  'LBL_MODIFIED_USER' => 'Изменено',
+  'LBL_LIST_NAME' => 'Имя',
+  'LBL_EDIT_BUTTON' => 'Править',
+  'LBL_REMOVE' => 'Удалить',
+  'LBL_LIST_FORM_TITLE' => 'Ствтьи базы знаний',
+  'LBL_MODULE_NAME' => 'База знаний',
+  'LBL_MODULE_TITLE' => 'База знаний',
+  'LBL_HOMEPAGE_TITLE' => 'Моя база знаний',
+  'LNK_NEW_RECORD' => 'Добавить статью в базу знаний',
+  'LNK_LIST' => 'Статьи базы знаний',
+  'LNK_IMPORT_AOK_KNOWLEDGEBASE' => 'Импорт статей базы знаний',
+  'LBL_SEARCH_FORM_TITLE' => 'Помск статей базы знаний',
+  'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
+  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
+  'LBL_AOK_KNOWLEDGEBASE_SUBPANEL_TITLE' => 'Статьи базы знаний',
+  'LBL_NEW_FORM_TITLE' => 'Новая статья базы знаний',
+  'LBL_STATUS' => 'Статус',
+  'LBL_REVISION' => 'Версия статьи',
+  'LBL_AUTHOR_USER_ID' => 'Автор(ID)',
+  'LBL_AUTHOR' => 'Автор статьи',
+  'LBL_APPROVER_USER_ID' => 'Кем утверждено(ID)',
+  'LBL_APPROVER' => 'Кем утверждено',
 );
-?>
+
+$mod_strings['LBL_AOK_KB_CATEGORIES_TITLE'] = 'Категории базы знаний';

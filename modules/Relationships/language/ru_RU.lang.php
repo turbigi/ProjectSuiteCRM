@@ -38,17 +38,31 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
+ /*********************************************************************************
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+ * Description:  Defines the English language pack for the base application.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): ______________________________________..
+ ********************************************************************************/
 
+$mod_strings = array (
+  'LBL_ID' => 'ID отношения',
+  'LBL_RELATIONSHIP_NAME' => 'Название отношения',
+  'LBL_LHS_MODULE' => 'Название модуля LHS',
+  'LBL_LHS_TABLE' => 'Название таблицы LHS',
+  'LBL_LHS_KEY' => 'Название ключа LHS',
+  'LBL_RHS_MODULE' => 'Название модуля RHS',
+  'LBL_RHS_TABLE' => 'Название таблицы RHS',
+  'LBL_RHS_KEY' => 'Название ключа RHS',
+  'LBL_JOIN_TABLE' => 'Название присоединённой таблицы',
+  'LBL_JOIN_KEY_LHS' => 'Ключ присоединения LHS',
+  'LBL_JOIN_KEY_RHS' => 'Ключ присоединения RHS',
+  'LBL_RELATIONSHIP_TYPE' => 'Тип отношения',
+  'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Название столбца роли отношения',
+  'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Значение столбца роли отношения',
+  'LBL_REVERSE' => 'Обратить' ,
+  'LBL_DELETED' => 'Удалено',
 );
+  
 ?>

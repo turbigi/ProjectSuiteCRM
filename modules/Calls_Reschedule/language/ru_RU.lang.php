@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -38,17 +37,39 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
+  'LBL_ASSIGNED_TO_NAME' => 'Пользователь SuiteCRM',
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Дата создания',
+  'LBL_DATE_MODIFIED' => 'Дата изменения',
+  'LBL_MODIFIED' => 'Изменено',
+  'LBL_MODIFIED_ID' => 'Изменено(ID)',
+  'LBL_MODIFIED_NAME' => 'Изменено',
+  'LBL_CREATED' => 'Создано',
+  'LBL_CREATED_ID' => 'Создано(ID)',
+  'LBL_DESCRIPTION' => 'Описание',
+  'LBL_DELETED' => 'Удалено',
+  'LBL_NAME' => 'Имя пользователя приложения',
+  'LBL_CREATED_USER' => 'Создано',
+  'LBL_MODIFIED_USER' => 'Изменено',
+  'LBL_LIST_NAME' => 'Имя',
+  'LBL_EDIT_BUTTON' => 'Править',
+  'LBL_REMOVE' => 'Удалить',
+  'LBL_LIST_FORM_TITLE' => 'Отложенные звонки',
+  'LBL_MODULE_NAME' => 'Отложенные звонки',
+  'LBL_MODULE_TITLE' => 'Отложенные звонки',
+  'LBL_HOMEPAGE_TITLE' => 'Мои отложенные звонки',
+  'LNK_NEW_RECORD' => 'Создать отложенный звонок',
+  'LNK_LIST' => 'Отложенные звонки',
+  'LNK_IMPORT_CALLS_RESCHEDUAL' => 'Импорт отложенных звонков',
+  'LBL_SEARCH_FORM_TITLE' => 'Поиск отложенных звонков',
+  'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
+  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
+  'LBL_CALLS_RESCHEDUAL_SUBPANEL_TITLE' => 'Отложенные звонки',
+  'LBL_NEW_FORM_TITLE' => 'Новый отложенный звонок',
+  'LBL_REASON' => 'Причина',
+  'LBL_CALLS' => 'звонки',
+  'LNK_IMPORT_CALLS_RESCHEDULE' => 'Импорт отложенных звонков',
+  'LBL_CALLS_RESCHEDULE_SUBPANEL_TITLE' => 'Отложенные звонки',
 );
-?>

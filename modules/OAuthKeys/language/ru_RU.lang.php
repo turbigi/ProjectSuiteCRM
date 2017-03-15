@@ -39,16 +39,29 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$mod_strings = array (
+  'LBL_CONSKEY' => 'Ключ пользователя',
+  'LBL_CONSSECRET' => 'Секретный ключ',
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
+  'LBL_ASSIGNED_TO_NAME' => 'Пользователь',
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Дата создания',
+  'LBL_DATE_MODIFIED' => 'Дата изменения',
+  'LBL_MODIFIED' => 'Изменено',
+  'LBL_MODIFIED_ID' => 'Изменено(ID)',
+  'LBL_MODIFIED_NAME' => 'Изменено',
+  'LBL_CREATED' => 'Создано',
+  'LBL_CREATED_ID' => 'Создано(ID)',
+  'LBL_DESCRIPTION' => 'Описание',
+  'LBL_DELETED' => 'Удалено',
+  'LBL_NAME' => 'Название ключа пользователя',
+  'LBL_CREATED_USER' => 'Создано',
+  'LBL_MODIFIED_USER' => 'Изменено',
+  'LBL_LIST_NAME' => 'Название ключа',
+  'LBL_LIST_FORM_TITLE' => 'Ключи OAuth',
+  'LBL_MODULE_NAME' => 'Ключи OAuth',
+  'LBL_MODULE_TITLE' => 'Ключи OAuth',
+  'LNK_NEW_RECORD' => 'Создание ключа OAuth',
+  'LNK_LIST' => 'Ключи OAuth',
+  'LBL_TOKENS' => 'Токены',
 );
-?>

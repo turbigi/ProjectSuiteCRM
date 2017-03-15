@@ -39,16 +39,20 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
 
+$mod_strings = array (
+    'LBL_OAUTH_REQUEST' => "Токен запроса",
+    'LBL_OAUTH_AUTHORIZE' => "Авторизовать токен",
+	'LBL_OAUTH_CONSUMERREQ' => "Авторизовать токен пользователя <b>%s</b>?",
+    'LBL_OAUTH_ROLE' => "Роль токена",
+	'LBL_OAUTH_VALIDATION' => "Контрольный код",
+  	'LBL_ASSIGNED_TO_NAME' => 'Пользователь',
+  	'LBL_ID' => 'ID',
+    'LBL_STATUS' => 'Статус',
+    'LBL_TS' => 'Отметка времени',
+    'LBL_LIST_DELETE' => 'Удалён',
+    'LBL_CONSUMER' => 'Пользователь',
+    'LBL_OAUTH_DISABLED' => 'Поддержка OAuth отключена. Вероятно, отсутствует соответствующее расширение PHP. Для решения вопроса свяжитесь с системным администратором.',
+    'LBL_TOKEN_TS' => 'Token TS',
+    'LBL_CALLBACK_URL' => 'Callback URL',
 );
-?>

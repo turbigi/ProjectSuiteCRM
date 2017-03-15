@@ -39,16 +39,18 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$connector_strings = array (
+    'LBL_GET_STARTED' => 'Приступая к работе!',
+    'LBL_TOS0' => 'Я согласен с InsideView  ',
+    'LBL_TOS1' => 'Условия использования',
+    'LBL_TOS3' => 'Политика конфиденциальности',
+    'iv_description0' => 'By clicking "Get Started" you agree to InsideView\'s',
+    'LBL_OPP' => 'Find Opportunities',
+    'LBL_OPP_SUB' => 'to reach out to customers',
+    'LBL_REFERRAL' => 'Get Referrals',
+    'LBL_REFERRAL_SUB' => 'to key decision makers',
+    'LBL_ENGAGE' => 'Engage Customers',
+    'LBL_ENGAGE_SUB' => 'with conversation starters',
 );
+
 ?>

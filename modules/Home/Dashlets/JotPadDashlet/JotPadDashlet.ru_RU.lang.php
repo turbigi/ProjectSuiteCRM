@@ -39,16 +39,16 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
 
+
+$defaultText = "";
+$dashletStrings['JotPadDashlet'] = array('LBL_TITLE'            => 'Мини-блокнот',
+                                         'LBL_DESCRIPTION'      => 'Дашлет для заметок',
+                                         'LBL_SAVING'           => 'Сохранение...',
+                                         'LBL_SAVED'            => 'Сохранено',
+                                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
+                                         'LBL_CONFIGURE_HEIGHT' => 'Высота (1 - 300)',
+                                         'LBL_DBLCLICK_HELP'    => 'Для редактирования текста кликните на нём дважды.',
+                                         'LBL_DEFAULT_TEXT'     => $defaultText,
 );
 ?>

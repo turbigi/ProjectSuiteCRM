@@ -1,11 +1,11 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
+/**
+ *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
-
- * SuiteCRM is an extension to SugarCRM Community Edition developed by Salesagility Ltd.
- * Copyright (C) 2011 - 2014 Salesagility Ltd.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2017 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -36,19 +36,33 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
  * reasonably feasible for  technical reasons, the Appropriate Legal Notices must
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
- ********************************************************************************/
+ */
 
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
+$app_list_strings = array(
+    strtolower($object_name) . '_category_dom' => array(
+        '' => '',
+        'Marketing' => 'Маркетинг',
+        'Knowledege Base' => 'База знаний',
+        'Sales' => 'Продажи',
+    ),
 
+    strtolower($object_name) . '_subcategory_dom' => array(
+        '' => '',
+        'Marketing Collateral' => 'Маркетинг',
+        'Product Brochures' => 'Брошюры товаров',
+        'FAQ' => 'ЧаВо',
+    ),
+
+    strtolower($object_name) . '_status_dom' => array(
+        'Active' => 'Активен',
+        'Draft' => 'Черновик',
+        'FAQ' => 'ЧаВо',
+        'Expired' => 'Просрочен',
+        'Under Review' => 'На рассмотрении',
+        'Pending' => 'Ожидание решения',
+    ),
 );
-?>

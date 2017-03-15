@@ -39,16 +39,15 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
 
+
+$mod_strings = array (
+  'LBL_FIELD_NAME' => 'Поле',
+  'LBL_OLD_NAME' => 'Старое значение',
+  'LBL_NEW_VALUE' => 'Новое значение',
+  'LBL_CREATED_BY' => 'Изменено',
+  'LBL_LIST_DATE' => 'Дата изменения',
+  'LBL_AUDITED_FIELDS' => 'Поля, контролируемые в этом  модуле: ',
+  'LBL_NO_AUDITED_FIELDS_TEXT' => 'В этом модуле нет контролируемых полей',
+  'LBL_CHANGE_LOG' => 'Журнал изменений',
 );
-?>

@@ -1,11 +1,11 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
+/**
+ *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
-
- * SuiteCRM is an extension to SugarCRM Community Edition developed by Salesagility Ltd.
- * Copyright (C) 2011 - 2014 Salesagility Ltd.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2017 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -36,19 +36,23 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
  * reasonably feasible for  technical reasons, the Appropriate Legal Notices must
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
- ********************************************************************************/
+ */
 
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$mod_strings = array(
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Дата создания',
+    'LBL_DATE_MODIFIED' => 'Дата изменения',
+    'LBL_MODIFIED' => 'Изменено',
+    'LBL_MODIFIED_ID' => 'Изменено(ID)',
+    'LBL_MODIFIED_NAME' => 'Изменено',
+    'LBL_CREATED' => 'Создано',
+    'LBL_CREATED_ID' => 'Создано(ID)',
+    'LBL_DESCRIPTION' => 'Описание',
+    'LBL_DELETED' => 'Удалено',
+    'LBL_NAME' => 'Название',
+    'LBL_CREATED_USER' => 'Создано',
+    'LBL_MODIFIED_USER' => 'Изменено',
+    'LBL_LIST_NAME' => 'Название',
+    'LBL_EDIT_BUTTON' => 'Править',
+    'LBL_REMOVE' => 'Удалить',
 );
-?>

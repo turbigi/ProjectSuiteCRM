@@ -39,16 +39,19 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
 
-);
+
+
+$dashletStrings['RSSDashlet'] = array('LBL_TITLE'            => 'Лента новостей',
+                                         'LBL_DESCRIPTION'      => 'Лента новостей',
+                                         'LBL_SAVING'           => 'Анализ ...',
+                                         'LBL_SAVED'            => 'Готово',
+                                         'LBL_AUTO_SCROLL'      => 'Автопрокрутка',
+                                          'LBL_SCROLL_SPEED'      => 'Скорость автопрокрутки (%)',
+                                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
+                                         'LBL_CONFIGURE_HEIGHT' => 'Высота (1 - 300)',
+                                         'LBL_CONFIGURE_RSSURL' => 'Url',
+                                         'LBL_DBLCLICK_HELP'    => '',
+                                         'ERR_LOADING_FEED'     => 'Ошибка загрузки',
+                                         );
 ?>

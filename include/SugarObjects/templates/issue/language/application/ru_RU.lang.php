@@ -1,11 +1,11 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
+/**
+ *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
-
- * SuiteCRM is an extension to SugarCRM Community Edition developed by Salesagility Ltd.
- * Copyright (C) 2011 - 2014 Salesagility Ltd.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2017 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -36,19 +36,35 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
  * reasonably feasible for  technical reasons, the Appropriate Legal Notices must
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
- ********************************************************************************/
+ */
 
+$object_name = strtolower($object_name);
+$app_list_strings = array(
 
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+    $object_name . '_type_dom' => array(
+        'Administration' => 'Администрирование',
+        'Product' => 'Продукция',
+        'User' => 'Пользователь: ',
+    ),
+    $object_name . '_status_dom' => array(
+        'New' => 'Новый',
+        'Assigned' => 'Назначенный',
+        'Closed' => 'Закрыто',
+        'Pending Input' => 'Ожидание решения',
+        'Rejected' => 'Отклонённое',
+        'Duplicate' => 'Дублировать',
+    ),
+    $object_name . '_priority_dom' => array(
+        'P1' => 'Высокий',
+        'P2' => 'Средний',
+        'P3' => 'Низкий',
+    ),
+    $object_name . '_resolution_dom' => array(
+        '' => '',
+        'Accepted' => 'Принято',
+        'Duplicate' => 'Дублировать',
+        'Closed' => 'Закрыто',
+        'Out of Date' => 'Устарело',
+        'Invalid' => 'Недействительно',
+    ),
 );
-?>

@@ -1,5 +1,4 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -38,17 +37,45 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
-
-$dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
-                         'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
-                         
-                         'LBL_VIEW_DAY' => 'День',
-                         'LBL_VIEW_WEEK' => 'Неделя',
-                         'LBL_VIEW_MONTH' => 'Месяц',
-
+$mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
+  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Дата создания',
+  'LBL_DATE_MODIFIED' => 'Дата изменения',
+  'LBL_MODIFIED' => 'Изменено:',
+  'LBL_MODIFIED_ID' => 'Изменено(ID)',
+  'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
+  'LBL_CREATED' => 'Создано',
+  'LBL_CREATED_ID' => 'Создано(ID)',
+  'LBL_DESCRIPTION' => 'Описание',
+  'LBL_DELETED' => 'Удалено',
+  'LBL_NAME' => 'Имя',
+  'LBL_CREATED_USER' => 'Кем создано',
+  'LBL_MODIFIED_USER' => 'Изменено',
+  'LBL_LIST_NAME' => 'Имя',
+  'LBL_EDIT_BUTTON' => 'Изменить',
+  'LBL_REMOVE' => 'Удалить',
+  'LBL_LIST_FORM_TITLE' => 'События',
+  'LBL_MODULE_NAME' => 'Событие',
+  'LBL_MODULE_TITLE' => 'Событие',
+  'LBL_HOMEPAGE_TITLE' => 'Мои события',
+  'LNK_NEW_RECORD' => 'Создать событие',
+  'LNK_LIST' => 'События',
+  'LNK_IMPORT_FP_EVENTS' => 'Импорт событий',
+  'LBL_SEARCH_FORM_TITLE' => 'Поиск событий',
+  'LBL_HISTORY_SUBPANEL_TITLE' => 'Просмотр истории',
+  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
+  'LBL_FP_EVENTS_SUBPANEL_TITLE' => 'Событие',
+  'LBL_NEW_FORM_TITLE' => 'Новое событие',
+  'LBL_LOCATION' => 'Место',
+  'LBL_START_DATE' => 'дата начала',
+  'LBL_END_DATE' => 'Дата/Время окончания',
+  'LBL_BUDGET' => 'Бюджет',
+  'LBL_INVITE_PDF' => 'Отправить приглашения',
+  'LBL_INVITE_EMAIL' => 'Send Invite as Email',
+  'LBL_PDF_TEMPLATE' => 'Invite PDF Template',
+  'LBL_EMAIL_TEMPLATE' => 'Invite Email Template',
+  'LBL_EDITVIEW_PANEL1' => 'New Panel 1',
+  'LBL_DEFAULT_SUBPANEL_TITLE' => 'Участники',
 );
-?>
