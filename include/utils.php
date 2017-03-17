@@ -1597,7 +1597,7 @@ function get_select_options_with_id_separate_key($label_list, $key_list, $select
             )
             || (is_array($selected_key) && in_array($option_key, $selected_key))
         ) {
-            $selected_string = 'selected ';
+            $selected_string = ' ';
         }
 
         $html_value = $option_key;

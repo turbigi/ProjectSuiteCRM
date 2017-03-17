@@ -50,7 +50,7 @@
 </div>
 
 <div style="float:left; text-align: right; width: 30%; font-size: 12px;">
-	{if $view == "sharedWeek" || $view == "sharedMonth"}
+	{if $view == "sharedWeek" || $view == "sharedMonth" || $view == "sharedMonthAll" || $view == "sharedWeekAll"}
 		<input id="userListButtonId" type="button" class="btn btn-info" value="{$MOD.LBL_EDIT_USERLIST}" data-toggle="modal" data-target=".modal-calendar-user-list"">
 	{/if}
 	{if $view != 'year' && !$print}

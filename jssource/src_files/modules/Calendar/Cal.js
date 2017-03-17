@@ -539,6 +539,7 @@ CAL.full_form = function () {
   var e = document.createElement('input');
   e.setAttribute('type', 'hidden');
   e.setAttribute('name', 'module');
+
   e.value = CAL.get('current_module').value;
   CAL.get('form_content').parentNode.appendChild(e);
   var e = document.createElement('input');
@@ -577,7 +578,7 @@ CAL.dialog_create = function (date, end_date, user_id) {
   CAL.open_edit_dialog();
   CAL.disable_buttons();
   var module_name = CAL.get("current_module").value;
-  if (CAL.view == 'sharedWeek' || CAL.view == 'sharedMonth') {
+  if (CAL.view == 'sharedWeek' || CAL.view == 'sharedMonth' || CAL.view == 'sharedWeekAll' || CAL.view == 'sharedMonthAll') {
     user_name = "";
     CAL.GR_update_user(user_id);
     $.ajax({
@@ -903,11 +904,9 @@ $($.fullCalendar).ready(function () {
     var headerFormatDayWeek = 'dddd D';
     var headerFormatMonth = 'dddd';
     var headerFormat = headerFormatDayWeek;
-    if(global_view == 'sharedMonth' || global_view == 'month') {
+    if(global_view == 'sharedMonth' || global_view == 'month'|| global_view == 'sharedMonthAll') {
       headerFormat = headerFormatMonth;
     }
-
-
 
      $('#calendar' + user_id).fullCalendar({
        header: {

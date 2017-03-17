@@ -362,7 +362,7 @@ class CalendarDisplay {
 		global $current_user;
 		$dateFormat = $current_user->getUserDateTimePreferences();
 
-		if($view == 'month' || $view == 'sharedMonth' ){
+		if($view == 'month' || $view == 'sharedMonth' || $view == 'sharedMonthAll'){
 			for($i=0; $i<strlen($dateFormat['date']); $i++){
 				switch($dateFormat['date']{$i}){
 					case "Y":
@@ -374,7 +374,7 @@ class CalendarDisplay {
 				}
 			}
 		}else
-			if($view == 'agendaWeek' || $view == 'sharedWeek') {
+			if($view == 'agendaWeek' || $view == 'sharedWeek' || $view == 'sharedWeekAll') {
 				$first_day = $date_time;
 
 				$first_day = CalendarUtils::get_first_day_of_week($date_time);
@@ -554,6 +554,7 @@ class CalendarDisplay {
 		$ss->assign('next',$this->get_next_calendar());
 
 		$ss->assign('date_info',$this->get_date_info($this->cal->view,$this->cal->date_time));
+        $ss->assign("users_options",get_select_options_with_id(get_user_array(false), $this->cal->shared_ids));
 
 		$header = get_custom_file_if_exists("modules/Calendar/tpls/header.tpl");
 		echo $ss->fetch($header);
@@ -671,7 +672,6 @@ class CalendarDisplay {
 			$tpl = get_custom_file_if_exists("modules/Calendar/tpls/shared_users.tpl");
 			echo $ss->fetch($tpl);
 	}
-
 }
 
 ?>

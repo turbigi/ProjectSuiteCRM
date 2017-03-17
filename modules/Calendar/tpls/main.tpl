@@ -78,7 +78,17 @@
 			type: 'agenda',
 			duration: {days: 7},
 			buttonText: 'Shared Week'
-		}
+		},
+        sharedWeekAll: {
+            type: 'agenda',
+            duration: {days: 7},
+            buttonText: 'Shared Week For All'
+        },
+        sharedMonthAll: {
+            type: 'month',
+            duration: { months: 1 },
+            buttonText: 'Shared Month For All'
+        }
 	};
 	{/literal}
 
